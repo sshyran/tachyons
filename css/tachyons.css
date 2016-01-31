@@ -701,32 +701,32 @@ input[type="password"]:after,
 .b--near-white {   border-color: #f4f4f4; }
 .b--white {        border-color: #fff; }
 
-.b--white-10 {   border-color: hsla(0, 0, 100%, .1); }
-.b--white-20 {   border-color: hsla(0, 0, 100%, .2); }
-.b--white-25 {   border-color: hsla(0, 0, 100%, .25); }
-.b--white-30 {   border-color: hsla(0, 0, 100%, .3); }
-.b--white-40 {   border-color: hsla(0, 0, 100%, .4); }
-.b--white-50 {   border-color: hsla(0, 0, 100%, .5); }
-.b--white-60 {   border-color: hsla(0, 0, 100%, .6); }
-.b--white-70 {   border-color: hsla(0, 0, 100%, .7); }
-.b--white-75 {   border-color: hsla(0, 0, 100%, .75); }
-.b--white-80 {   border-color: hsla(0, 0, 100%, .8); }
-.b--white-90 {   border-color: hsla(0, 0, 100%, .9); }
+.b--white-10 {   border-color: rgba(0, 0, 100%, .1); }
+.b--white-20 {   border-color: rgba(0, 0, 100%, .2); }
+.b--white-25 {   border-color: rgba(0, 0, 100%, .25); }
+.b--white-30 {   border-color: rgba(0, 0, 100%, .3); }
+.b--white-40 {   border-color: rgba(0, 0, 100%, .4); }
+.b--white-50 {   border-color: rgba(0, 0, 100%, .5); }
+.b--white-60 {   border-color: rgba(0, 0, 100%, .6); }
+.b--white-70 {   border-color: rgba(0, 0, 100%, .7); }
+.b--white-75 {   border-color: rgba(0, 0, 100%, .75); }
+.b--white-80 {   border-color: rgba(0, 0, 100%, .8); }
+.b--white-90 {   border-color: rgba(0, 0, 100%, .9); }
 
-.b--black-0125 {   border-color: hsla(0, 0, 0,  .0125); }
-.b--black-025 {   border-color: hsla(0, 0, 0,   .025); }
-.b--black-05 {   border-color: hsla(0, 0, 0,    .05); }
-.b--black-10 {   border-color: hsla(0, 0, 0,    .1); }
-.b--black-20 {   border-color: hsla(0, 0, 0,    .2); }
-.b--black-25 {   border-color: hsla(0, 0, 0,    .25); }
-.b--black-30 {   border-color: hsla(0, 0, 0,    .3); }
-.b--black-40 {   border-color: hsla(0, 0, 0,    .4); }
-.b--black-50 {   border-color: hsla(0, 0, 0,    .5); }
-.b--black-60 {   border-color: hsla(0, 0, 0,    .6); }
-.b--black-70 {   border-color: hsla(0, 0, 0,    .7); }
-.b--black-75 {   border-color: hsla(0, 0, 0,    .75); }
-.b--black-80 {   border-color: hsla(0, 0, 0,    .8); }
-.b--black-90 {   border-color: hsla(0, 0, 0,    .9); }
+.b--black-0125 {   border-color: rgba(0, 0, 0,  .0125); }
+.b--black-025 {   border-color: rgba(0, 0, 0,   .025); }
+.b--black-05 {   border-color: rgba(0, 0, 0,    .05); }
+.b--black-10 {   border-color: rgba(0, 0, 0,    .1); }
+.b--black-20 {   border-color: rgba(0, 0, 0,    .2); }
+.b--black-25 {   border-color: rgba(0, 0, 0,    .25); }
+.b--black-30 {   border-color: rgba(0, 0, 0,    .3); }
+.b--black-40 {   border-color: rgba(0, 0, 0,    .4); }
+.b--black-50 {   border-color: rgba(0, 0, 0,    .5); }
+.b--black-60 {   border-color: rgba(0, 0, 0,    .6); }
+.b--black-70 {   border-color: rgba(0, 0, 0,    .7); }
+.b--black-75 {   border-color: rgba(0, 0, 0,    .75); }
+.b--black-80 {   border-color: rgba(0, 0, 0,    .8); }
+.b--black-90 {   border-color: rgba(0, 0, 0,    .9); }
 
 .b--blue { border-color: #0074D9; }
 .b--light-blue { border-color: #64a8ff; }
@@ -2921,7 +2921,7 @@ img { max-width: 100%; }
   .pvxxxl-l { padding-top: 16rem;   padding-bottom: 16rem; }
 
   .phn-l {    padding-left: 0;      padding-right: 0; }
-  .pvxs-l {   padding-left: .25rem; padding-right: .25rem; }
+  .phxs-l {   padding-left: .25rem; padding-right: .25rem; }
   .phs-l {    padding-left: .5rem;  padding-right: .5rem; }
   .phm-l {    padding-left: 1rem;   padding-right: 1rem; }
   .phl-l {    padding-left: 2rem;   padding-right: 2rem; }
@@ -3106,7 +3106,7 @@ img { max-width: 100%; }
 .f3    { font-size: 1.25rem; }
 .f4    { font-size: 1rem; }
 .f5,
-.small { font-size: .85rem; }
+.small { font-size: .875rem; }
 
 @media screen and (min-width: 30em){
  .mega-ns { font-size: 4rem; }
@@ -3114,7 +3114,7 @@ img { max-width: 100%; }
  .f2-ns {   font-size: 1.5rem; }
  .f3-ns {   font-size: 1.25em; }
  .f4-ns {   font-size: 1rem; }
- .f5-ns {   font-size: .85rem; }
+ .f5-ns {   font-size: .875rem; }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
@@ -3123,7 +3123,7 @@ img { max-width: 100%; }
  .f2-m {   font-size: 1.5rem; }
  .f3-m {   font-size: 1.25rem; }
  .f4-m {   font-size: 1rem; }
- .f5-m {   font-size: .85rem; }
+ .f5-m {   font-size: .875rem; }
 }
 
 @media screen and (min-width: 60em) {
@@ -3132,7 +3132,7 @@ img { max-width: 100%; }
  .f2-l   { font-size: 1.5rem; }
  .f3-l   { font-size: 1.25rem; }
  .f4-l   { font-size: 1rem; }
- .f5-l   { font-size: .85rem; }
+ .f5-l   { font-size: .875rem; }
 }
 /*
 
